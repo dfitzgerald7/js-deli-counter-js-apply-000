@@ -19,6 +19,6 @@ function nowServing(line){
 
 function currentLine(line)
 
-var line = []
+var line = [];
 
 console.log(takeANumber(line))
