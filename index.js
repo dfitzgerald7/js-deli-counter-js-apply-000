@@ -17,8 +17,16 @@ function nowServing(line){
   }
 }
 
-function currentLine(line)
-
-var line = [];
-
-console.log(takeANumber(line))
+function currentLine(line){
+  if (line.length < 1) {
+    return "The line is currently empty.";
+  }
+  else{
+    var myString = "The line is currently: 1. " + line[0];
+    var i = 1;
+    for (i = 1; i < line.length; i++){
+      myString += ", " + (i + 1) + ". " + line[i];
+    }
+    return myString
+  }
+}
