@@ -1,8 +1,10 @@
+var myInt = 0;
 
 function takeANumber(line){
-  var myNum = line.length; 
-  line[myNum] = line.length + 1; //insert name into last position
+  var myNum = myInt; 
+  line[myNum] = myInt + 1; //insert name into last position
   console.log("Welcome. You are number " + (myNum + 1) + " in line.")
+  myInt++;
   return line
 }
 
