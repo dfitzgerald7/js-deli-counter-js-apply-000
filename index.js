@@ -13,9 +13,9 @@ function nowServing(line){
     return "There is nobody waiting to be served!";
   }
   else{
-    var customer = line.shift(); // first in line
+     // first in line
      // removes 1 element starting at index 0, which is the first in line.
-    return "Currently serving " + customer + ".";
+    return "Currently serving " + line.shift() + ".";
   }
 }
 
