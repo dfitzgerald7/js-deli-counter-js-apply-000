@@ -34,3 +34,4 @@ function currentLine(line){
 var line = []
 
 console.log(takeANumber(line))
+console.log(takeANumber(line))
