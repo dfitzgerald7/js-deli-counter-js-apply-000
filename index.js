@@ -30,3 +30,7 @@ function currentLine(line){
     return myString
   }
 }
+
+var line = []
+
+console.log(takeANumber(line))
