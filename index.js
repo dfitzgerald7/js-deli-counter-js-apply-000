@@ -14,7 +14,7 @@ function nowServing(line){
   }
   else{
     var customer = line[0]; // first in line
-    line.splice(0,1); // removes 1 element starting at index 0, which is the first in line.
+    line.shift(); // removes 1 element starting at index 0, which is the first in line.
     return "Currently serving " + customer + ".";
   }
 }
