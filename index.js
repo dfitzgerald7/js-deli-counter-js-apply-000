@@ -35,3 +35,4 @@ var line = []
 
 console.log(takeANumber(line))
 console.log(takeANumber(line))
+console.log(nowServing(line))
